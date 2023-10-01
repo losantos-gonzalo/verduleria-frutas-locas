@@ -1,0 +1,55 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    main {
+        border: 1px solid red;
+        background-color: #00000060;
+
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin-top: 15rem;
+        width: 40rem;
+        margin-left: auto;
+        margin-right: auto;
+
+        h1 {
+            color: #ffffff;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            margin: 10px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #carrito {
+            margin-top: 20px;
+            display: none;
+        }
+
+        #total {
+            color: #0dff00;
+            margin-top: 10px;
+        }
+    }
+}
