@@ -62,4 +62,6 @@ function mostrarTotalCarrito() {
     const totalDiv = document.getElementById("total");
     totalDiv.innerHTML = `<h2>Total de la compra: $${totalCarrito.toFixed(2)}</h2>`;
     totalDiv.style.display = "block";
+
+    console.log(frutas)
 }
